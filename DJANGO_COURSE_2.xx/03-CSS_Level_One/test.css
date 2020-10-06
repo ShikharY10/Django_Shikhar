@@ -1,0 +1,52 @@
+body {
+  background-color: #b0e0e6;
+  display: block;
+}
+
+div h1{
+  border-style: solid;
+  border-width: 1px;
+}
+
+div p{
+  background-color: #fffca5;
+}
+
+#h2design{
+  color: purple;
+}
+
+.olfirst{
+  color: purple;
+  text-decoration: overline;
+}
+
+li a{
+  color: red;
+}
+
+a:visited{
+  color:blue;
+}
+
+#textinput {
+  border-style: solid;
+  border-color: gray;
+  border-width: 5px;
+  width: 800px;
+  height: 400px;
+}
+
+.login {
+  border-style: solid;
+  border-color: #a11313;
+}
+
+.Feedbackinput {
+  border-style: dashed;
+  border-width: 4px;
+  border-color: yellow;
+  background-color: blue;
+  margin-bottom: 2px;
+
+}

@@ -1,0 +1,22 @@
+body{
+  /*background: gray;*/
+  background: url(https://cdn.pixabay.com/photo/2015/02/24/15/41/dog-647528__340.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+div{
+  background-color: blue;
+  border: orange;
+  border-width: thick; /* 10 px */
+  border-style: dotted;
+
+  }
+
+p{
+  color: yellow;
+}
+span{
+  background: red;
+  color: black;
+}

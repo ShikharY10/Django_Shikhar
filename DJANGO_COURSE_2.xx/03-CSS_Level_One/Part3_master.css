@@ -1,0 +1,48 @@
+/*Lots of Selector Types, check out these links*/
+
+/*  http://www.w3schools.com/cssref/css_selectors.asp */
+/*  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors  */
+/*  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors */
+/*Class selectors start with a dot . */
+body {
+  background-color: rgb(54,125,255);
+}
+
+.firstDiv{
+  color: blue;
+}
+
+.secondDiv{
+  background-color: gray;
+}
+
+/* Use an id to single out html elements*/
+
+/* id selectors use a hashtag # */
+#singledout{
+  color: red;
+  text-decoration: underline;
+}
+
+/*Use an asterisk to select all elements*/
+*{
+  color: green;
+}
+
+/*Adjacent sibling: Elements that are next to each other*/
+h3 + ul{
+  background-color: rgba(255,0,0,0.1);
+  border: 3px dotted purple;
+  border-width: thin;
+}
+
+/*Descendants*/
+li a{
+  color: black;
+}
+
+/*Attributes*/
+li a[href="www.npr.org"]{
+  color: red;
+  border: 5px solid orange;
+}

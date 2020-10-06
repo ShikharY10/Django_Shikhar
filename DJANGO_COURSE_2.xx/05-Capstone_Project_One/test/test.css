@@ -1,0 +1,48 @@
+body{
+  font-family: 'Montserrat';
+  background-color:black;
+  color: white;
+  text-align: center;
+  border: 60px;
+  border-style: solid;
+  border-top: 0px;
+  border-color: #2EC4B6;
+  margin: 0px;
+  padding-bottom: 10%;
+}
+h1{
+  font-size: 60px;
+}
+h2{
+  font-size: 40px;
+}
+
+#firstpara{
+  padding-top: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#secondpara{
+  padding-top: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+input{
+  margin-bottom: 15px;
+}
+
+.textalin{
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.signup{
+  background-color: #2EC4B6;
+  padding: 10px;
+  margin: 5px;
+  font-style:italic;
+  font-weight: bold;
+  border-radius: 10px;
+}
